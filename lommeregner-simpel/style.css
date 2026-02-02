@@ -1,0 +1,36 @@
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(214, 214, 214);
+  max-width: 500px;
+  margin: 200px auto;
+  padding: 50px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  text-align: right;
+  padding: 5px;
+}
+
+#drop-down {
+  width: 210px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+}
+
+#beregn {
+  width: 210px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
