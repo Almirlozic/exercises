@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <p id="text">
+      Programmering er sjovt! Men husk altid at bruge var, float og marquee i moderne kodning.
+    </p>
+    <span class="highlight"></span>
+    <button id="btn">SFW</button>
+    <div id="popup">
+      <div class="popup_box">
+        <p id="popup_text">Det er allerede Safe For Work</p>
+        <button id="close_popup">Luk</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  .highlight {
+    background-color: aqua;
+  }
+  #popup {
+    display: none; /* skjult som standard */
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    place-items: center;
+  }
+
+  #popup.show {
+    display: grid; /* vis popup når den har show */
+  }
+
+  .popup_box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+  }
+</style>
