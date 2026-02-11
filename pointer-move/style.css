@@ -1,9 +1,13 @@
 :root {
-  --mouse-bg: 50%;
+  --l-bg: 50%;
+  --l-color: 0%;
 }
 
 body {
-  background-color: hsl(200, 100%, var(--mouse-bg));
+  background-color: hsl(200, 100%, var(--l-bg));
   height: 100vh;
   margin: 0;
+}
+h1 {
+  color: hsl(200, 100%, var(--l-color));
 }
