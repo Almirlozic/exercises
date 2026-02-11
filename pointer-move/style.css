@@ -1,0 +1,9 @@
+:root {
+  --mouse-bg: 50%;
+}
+
+body {
+  background-color: hsl(200, 100%, var(--mouse-bg));
+  height: 100vh;
+  margin: 0;
+}
