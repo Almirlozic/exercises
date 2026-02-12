@@ -1,0 +1,43 @@
+body {
+  background: url("hej.avif") center center/cover no-repeat;
+  height: 800px;
+}
+#next {
+  background: url("adam.webp") center center/cover no-repeat;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 20px 10px;
+}
+.next-btn {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #c2c3ce;
+}
+.next-btn:hover {
+  opacity: 90%;
+}
+.tekster {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+.tekster:hover {
+  opacity: 90%;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160vh;
+  width: 295vh;
+  gap: 20px;
+}
